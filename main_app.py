@@ -8,7 +8,7 @@ st.title(" Dataset Explorer Web App ")
 
 st.subheader(" Here you can qucikly Perfom basic EDA")
 
-file=st.file_uploader(" Please upload ur file Type: csv,xlsx",type=['csv','xlsx'])
+file=st.file_uploader(" Please upload ur file Type: csv,xlsx",type=['csv','xlsx','xls'])
 
 if file:
     
